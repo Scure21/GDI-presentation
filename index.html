@@ -60,7 +60,9 @@
         <!-- Intro Slides-->
 		        <section>
 		          <h2>Welcome!</h2>
-		            <p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
+		            <p>Girl Develop It is a nonprofit organization that exists to provide affordable and judgment-free opportunities for women interested in learning web and software development.</p> 
+						<br/>
+					<p>We're here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
 		        </section>
 
 				<section>
@@ -76,7 +78,8 @@
 				<section>
 		          <h2>What we'll cover</h2>
 		          <ul>
-	          		<li>Hardware &amp; Software</li>
+					<li>World Wide Web</li>
+					<li>Client side Vs Server side</li>
 	          		<li>Programming languages</li>
 		            <li>Building a web site</li>
 		            <li>Web development professionals</li>
@@ -114,21 +117,32 @@
 
 			<!-- How does the Internet Work -->
 	        <section>
-	          <h2>What is the world wide web?</h2>
-	          <img class="fragment" src="images/client-server.png" alt="" />
-	        </section>
-
+	          <h2>What is the world wide web? aka The Web</h2>
+	          <ul>
+				<li>Is the concept of having a lot of documents interconnected so we can navigate between them</li>
+			  </ul>
+			</section>
+			
 			<section>
+				<h3>How does the web work?</h3>
+				<img class="fragment" src="images/client-server.png" alt="" />
+			</section>
+
 				<section>
-					<h3>How does the web work?</h3>
-					<p>Let's take a tour! A typical web site will live or is "hosted" on a web server. Web servers are often large computers connected to a network.</p>
+					<h3>How do we access websites?</h3>
+					<br>
+					<p>Web browsers, mobile phones, tablets.</p>
+					<br>
+					<p>A typical web site will live or is "hosted" on a web server. Web servers are often large computers connected to a network.</p>
 					<img src="images/server-small.jpg" alt="Server with three ethernet cables" />
 					<p><small>Photo credit <a href="http://www.flickr.com/photos/7409674@N07/435133113">computerroom085</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></small></p>
 					<aside class="notes">
 						<p>Next slides are step-by-step process.</p>
 					</aside>
 				</section>
-
+				<section>
+					<h2>Let's take a tour!</h2>
+				</section>
 				<section>
 					<h3>Step 1: Type an address into the address bar</h3>
 					<img src="images/step-1.png" alt="Typing girldevelopit.com into an address bar" />
@@ -187,7 +201,6 @@
 					</aside>
 				</section>
 
-			</section>
 
 			<!-- Clients v. Servers -->
 
@@ -207,16 +220,18 @@
 		        <section>
 			        <h3>Terms: Client Side</h3>
 			        	<div class="left-align">
+							<p class="fragment"><strong>Front End</strong>: Another way to refer to client side</p>
 			            	<p class="fragment"><strong>HTML</strong>: Hyper Text Markup Language - The code structure used to convey the content of a web site</p>
 			            	<p class="fragment"><strong>CSS</strong>: Cascading Style Sheets - A language used to describe the presentation of the content</p>
-			            	<p class="fragment"><strong>WYSIWYG</strong>: What You See Is What You Get - A type of editing software meant to be used by those who don't know how to code</p>
+							<p class="fragment"><strong>JavaScript</strong>: Code to make websites more interactive</p>
+							<p class="fragment"><strong>Assets</strong>: Images, videos, audio, etc.</p>
 			          	</div>
 			        <aside class="notes">
 			            <ul>
 			            	<li>WYSIWYG - Dreamweaver is the most common example</li>
 			            </ul>
 			        </aside>
-		        </section>
+				</section>
 
 		        <section>
 		          <h3>Terms: Server Side - Navigating the Tubes</h3>
@@ -261,40 +276,55 @@
 
         	</section>
 
+			
+			<!-- <section>
+				<h3>Let's Try It!</h3>
+				<p>The simplest type of request you can send is a "ping." It asks the server "are you there?"</p>
+				<ol>
+					<li>Open the command line (Windows) or the terminal (Mac)</li>
+					<li>Type "ping google.com" and see what happens</li>
+					<li>Try some different websites</li>
+				</ol>
+				<aside class="notes">
+					<p>Explain what the different terms mean:</p>
+					<ul>
+						<li>Reply from: IP address of the server you are talking to</li>
+						<li>Bytes: Size of the request</li>
+						<li>Time: round trip time</li>
+						<li>TTL: Time to Live is a counter that keeps packets from circling forever</li>
+					</ul>
+				</aside>
+			</section> -->
+			
+			<section>
+				<h3>Browsers (Client Side)</h3>
+				<img src="images/browser-stats.png" alt="Browser usage statistics" width="700" />
+				<p><small>Source: <a target="_blank" href="http://gs.statcounter.com/#browser-US-monthly-201502-201602">StatCounter Global Stats - Browser Market Share</a></small></p>
+				<aside class="notes">
+					<ul>
+						<li>Click through to show the difference between global browser shares and US.</li>
+					</ul>
+				</aside>
+			</section>
 
-				<section>
-					<h3>Let's Try It!</h3>
-					<p>The simplest type of request you can send is a "ping." It asks the server "are you there?"</p>
-					<ol>
-						<li>Open the command line (Windows) or the terminal (Mac)</li>
-						<li>Type "ping google.com" and see what happens</li>
-						<li>Try some different websites</li>
-					</ol>
+			<section>
+					<h3>Terms: Server Side</h3>
+					<div class="left-align">
+						<p class="fragment"><strong>Back End</strong>: Another way to refer to server side</p>
+						<p class="fragment"><strong>Database</strong>: Collection of information organized in such a way that a computer program can quickly select desired pieces of data</p>
+						<p class="fragment"><strong>API</strong>: Collection of specific information ready to be displayed in the browser</p>
+						</div>
 					<aside class="notes">
-						<p>Explain what the different terms mean:</p>
 						<ul>
-							<li>Reply from: IP address of the server you are talking to</li>
-							<li>Bytes: Size of the request</li>
-							<li>Time: round trip time</li>
-							<li>TTL: Time to Live is a counter that keeps packets from circling forever</li>
+							<li>WYSIWYG - Dreamweaver is the most common example</li>
 						</ul>
 					</aside>
 				</section>
-
-		        <section>
-		          	<h3>Browsers (Client Side)</h3>
-		          		<img src="images/browser-stats.png" alt="Browser usage statistics" width="700" />
-		          		<p><small>Source: <a target="_blank" href="http://gs.statcounter.com/#browser-US-monthly-201502-201602">StatCounter Global Stats - Browser Market Share</a></small></p>
-		          	<aside class="notes">
-			          	<ul>
-			            	<li>Click through to show the difference between global browser shares and US.</li>
-			          	</ul>
-		          	</aside>
-		        </section>
-
+			
 		        <section>
 		          	<h3>What about 'The Cloud'?</h3>
-		          	<img src="images/cloud.png" alt="Cloud computing" style="width: 250px; display:block; margin: 0 auto;" />
+					  <img src="images/cloud.png" alt="Cloud computing" style="width: 250px; display:block; margin: 0 auto;" />
+					  <br>
 		          	<div class="left-align">
 			            <ul>
 			             	<li class="fragment">Cloud Computing means that data can be stored across a number of machines in different locations instead of just one locally.</li>
@@ -315,7 +345,7 @@
                 </section>
 
 				<section>
-					<h3>Parsing Languages &amp; Media</h3>
+					<h3>Languages</h3>
 					<div style="width: 48%; margin-right: 2%; float: left; text-align: left;">
 						<ul class="fragment" style="list-style-type: none; margin: 0;">
 							<li style="text-decoration: underline;"><strong>Client Side</strong></li>
@@ -414,7 +444,7 @@
 
                 <section>
                   <h3>Building a Website</h3>
-					<ul>
+					<!-- <ul>
 						<li class="fragment">An example development process (in a high-level, gross-oversimplification)
 							<ul>
 								<li class="fragment">Strategy is defined (Who is the audience? What are you giving them?)</li>
@@ -425,7 +455,8 @@
 								<li class="fragment">The website is launched</li>
 							</ul>
 						</li>
-					</ul>
+					</ul> -->
+					<img src="images/web-development-process.jpg" height="600px">
 					<aside class="notes">
 						<p>There are multiple methodologies for how to get there, but the touchpoints are generally consistent for every web project</p>
 					</aside>
@@ -538,7 +569,8 @@
 		        <section>
 		         	<h3>WYSIWYG vs. hand-coding</h3>
 		          	<ul>
-		            	<li>WYSIWYG code editors make general assumptions about what you intended to write which often is not accurate or best</li>
+						<li>WYSIWYGWhat You See Is What You Get - A type of editing software meant to be used by those who don't know how to code</li>
+		            	<!-- <li>WYSIWYG code editors make general assumptions about what you intended to write which often is not accurate or best</li> -->
 		            	<li class="fragment">They make the job of professionals <em>much</em> more difficult when the code is written poorly and filled with junk</li>
 		            	<li class="fragment">To truly understand what you are building, you need to learn the fundamental components</li>
 		            	<li class="fragment">Once you know how to code by hand, there are no limits to what you can build!</li>
@@ -546,64 +578,60 @@
 		        </section>
 
 
-		    <section>
-		        <section>
-		          	<h3>Server-side languages: What are the differences?</h3>
-		          	<ul>
-			            <li>The main difference is syntax, the set of rules for how you write a language.</li>
-			            <li class="fragment">They have slightly different strengths and philosophies</li>
-			            <li class="fragment">Which you choose to use will depend on
-			              	<ul>
-				                <li>What you are familiar with or want to learn</li>
-				                <li>What your host supports</li>
-				                <li>Community and documentation</li>
-			              	</ul>
-		            	</li>
-		          	</ul>
-					<aside class="notes">
-						<p>Click down for examples of Hello World in multiple languages</p>
-					</aside>
-		        </section>
+		    <!-- <section> -->
+			<section>
+				<h3>Server-side languages: What are the differences?</h3>
+				<ul>
+					<li>The main difference is syntax, the set of rules for how you write a language.</li>
+					<li class="fragment">They have slightly different strengths and philosophies</li>
+					<li class="fragment">Which you choose to use will depend on
+						<ul>
+							<li>What you are familiar with or want to learn</li>
+							<li>What your host supports</li>
+							<li>Community and documentation</li>
+						</ul>
+					</li>
+				</ul>
+				<aside class="notes">
+					<p>Click down for examples of Hello World in multiple languages</p>
+				</aside>
+			</section>
 
         <section>
           <h3>Hello world</h3>
           <p>PHP</p>
-<pre><code class="php">echo "Hello, world!";
-</code></pre>
-          <p>Java</p>
-<pre><code class="java">class HelloWorld {
-  static public void main( String args[] ) {
-    System.out.println( "Hello World!" );
-  }
-}
-</code></pre>
-        </section>
-
-        <section>
-          <h3>Hello world</h3>
+			<pre><code class="php">echo "Hello, world!";
+			</code></pre>
+					<p>Java</p>
+			<pre><code class="java">
+class HelloWorld {
+	static public void main( String args[] ) {
+		System.out.println( "Hello World!" );
+	}
+}		
+			</code></pre>
           <p>Python</p>
-<pre><code class="python">'Hello, world!'
-</code></pre>
-          <p>Ruby</p>
-<pre><code class="ruby">puts 'Hello, world!'
-</code></pre>
-        </section>
-
-        <section>
-          <h3>Hello world</h3>
+			<pre><code class="python">print 'Hello, world!'
+			</code></pre>
+					<p>Ruby</p>
+			<pre><code class="ruby">puts 'Hello, world!'
+			</code></pre>
+		</section>
+      <section>
           <p>JavaScript</p>
-          <p><small>Not server-side, but just for example</small></p>
-<pre><code class="js">document.writeln('Hello, World!');
-</code></pre>
-		        </section>
-		      </section>
+			<pre><code class="js">document.writeln('Hello, World!');
+// or
+console.log("Hello, world!")
+			</code></pre>
+		</section>
+	<!-- </section> -->
 
 		        <section>
 		        	<section>
 			          	<h3>Tools of the trade</h3>
 			          	<p class="left-align">To build your web site, you will probably need:</p>
 			          	<ul>
-				            <li class="fragment">A <strong>text editor</strong> like SublimeText, Notepad, or TextWrangler to write your code. Many can be found for free.</li>
+				            <li class="fragment">A <strong>text editor</strong> like SublimeText, Notepad, or Visual Studio Code to write your code. Many can be found for free.</li>
 				            <li class="fragment">A <strong>web browser</strong> like Chrome, Firefox, or Safari to test your code. All popular modern browsers are free.</li>
 			          	</ul>
 		        	</section>
